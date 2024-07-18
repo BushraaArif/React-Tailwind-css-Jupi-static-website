@@ -21,6 +21,7 @@ function App() {
       <Hero />
       <Features/>
       <Testimonial/>
+      <br/>
       <Hotspot/>
       <Price/>
       <Branch/>
