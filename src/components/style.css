@@ -1,0 +1,42 @@
+.card {
+    background-color:#ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgb(254, 250, 250);
+    padding: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  
+  .card p {
+    margin-bottom: 24px;
+  }
+  
+  .card i {
+    font-size: 24px;
+    margin-right: 12px;
+  }
+  #home {
+    height: 200vh;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  #footer {
+    height: 80vh;
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  @media (min-width: 768px) {
+    #home {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  
+  
